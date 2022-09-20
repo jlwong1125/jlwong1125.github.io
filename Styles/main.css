@@ -1,6 +1,16 @@
+html{
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
     margin-left: 10px;
 }
 a:focus, a:hover{
@@ -16,4 +26,29 @@ header h2{
     font-size: 130%;
     color: #800000;
     text-indent: 30px;
+}
+header img {
+    float:left;
+}
+shadow {
+    text-shadow: 2px 2px 2px rgb(128,0,0);
+}
+
+main {
+    clear: left;
+}
+
+header h3 {
+    margin-top: 1em;
+    font-size: 105%;
+}
+
+
+#list {
+    line-height: 1.5em;
+}
+
+footer p.copyright{
+    text-align: center;
+    font-size: 80%;
 }
