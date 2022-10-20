@@ -35,6 +35,14 @@ shadow {
 }
 
 main {
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
     clear: left;
 }
 
@@ -50,6 +58,16 @@ header h3 {
     padding: 1em;
 }
 
+p{
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
 
 #list {
     line-height: 1.5em;
