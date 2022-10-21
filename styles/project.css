@@ -115,7 +115,7 @@ footer p.Copyright{
     font-size: 80%;
 }
 
-p.Fixed{
+body p.Fixed{
     width: auto;
     position: fixed;
     bottom: 35%;
