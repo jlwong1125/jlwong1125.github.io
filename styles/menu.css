@@ -1,12 +1,13 @@
 #nav_menu ul {
     list-style-type: none;
-    padding: 1em em;
+    padding: 1em 0;    /* padding above and below li
+                          elements */
     text-align: center;
-    border-top: 2x Solid black;
-    border-bottom: 2px solid black;}
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
 #nav_menu ul li {
     display: inline;
-    padding: 1.5em 1.5em; }
+    padding: 0 1.5em; }
 #nav_menu ul li a {
     font-weight: bold;
     color: blue; }
@@ -17,7 +18,8 @@
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0;
+    padding: 1em 0;      /* padding above and below a
+                            elements */
     text-decoration: none;
     background-color: blue;
     color: white;
@@ -25,6 +27,7 @@
     border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
+
 article h1{
     float: left;
 }
