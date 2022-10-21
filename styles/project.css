@@ -52,18 +52,6 @@ shadow {
     text-shadow: 2px 2px 2px rgb(128,0,0);
 }
 
-main {
-    margin-top: 1.5em;
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 1.5em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 0.5em;
-    clear: left;
-}
-
 article p::first-letter{
     font-size: 3em;
     font-weight: bold;
