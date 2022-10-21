@@ -1,7 +1,6 @@
 #nav_menu ul {
     list-style-type: none;
-    padding: 1em 0;    /* padding above and below li
-                          elements */
+    padding: 1em 0;
     text-align: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black; }
@@ -18,8 +17,7 @@
     text-align: center;
     display: block;
     width: 175px;
-    padding: 1em 0;      /* padding above and below a
-                            elements */
+    padding: 1em 0;
     text-decoration: none;
     background-color: blue;
     color: white;
