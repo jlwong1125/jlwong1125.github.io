@@ -65,6 +65,7 @@ aside{
     position: static;
     width: 20%;
     float: right;
+    bottom: 4em;
     background-color: lightblue;
     padding: 15px 0;
     border-color: blue;
