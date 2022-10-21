@@ -28,9 +28,11 @@
 
 article h1{
     float: left;
+    padding: 1em;
 }
 article img{
     float: left;
+    padding: 1em;
 }
 aside ol{
     list-style-type: upper-roman;
