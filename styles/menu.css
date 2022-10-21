@@ -34,6 +34,7 @@ article{
     column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
+    margin-right: auto;
 }
 article h1{
     float: left;
