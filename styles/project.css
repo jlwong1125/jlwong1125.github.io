@@ -43,6 +43,11 @@ header img {
     float:left;
     margin-left: 2em;
 }
+article img{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 shadow {
     text-shadow: 2px 2px 2px rgb(128,0,0);
 }
@@ -57,6 +62,20 @@ main {
     box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
     clear: left;
+}
+
+article p::first-letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgreen;
+}
+
+aside{
+    width: 20%;
+    float: right;
+    background-color: #ffebc6;
+    padding: 0.5em;
 }
 
 header h3 {
@@ -86,7 +105,22 @@ div {
     line-height: 1.5em;
 }
 
-footer p.copyright{
+footer{
+    clear: both;
+    border-top: 2px solid maroon;
+}
+
+footer p.Copyright{
     text-align: center;
     font-size: 80%;
+}
+
+footer p.Fixed{
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    padding: 0.5em;
 }
