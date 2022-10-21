@@ -62,7 +62,7 @@ article p::first-letter{
     font-style: italic;
 }
 aside{
-    position: relative;
+    position: static;
     width: 20%;
     float: right;
     background-color: lightblue;
