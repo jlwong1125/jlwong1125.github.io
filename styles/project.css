@@ -80,7 +80,7 @@ footer p.Copyright{
     font-size: 80%;
 }
 
-body p.Fixed{
+footer p.Fixed{
     width: auto;
     position: fixed;
     bottom: 35%;
