@@ -26,8 +26,14 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
-article{
-    width: 75%;
+article{    
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 article h1{
     float: left;
@@ -64,13 +70,4 @@ aside{
 }
 footer{
     text-align: center;
-}
-article h2{
-    clear: left;
-    width: 70%;
-    float: left;
-    column-count: 3;
-    column-rule: 2px dotted blue;
-    column-gap: 2em;
-    margin-left: 2em;
 }
