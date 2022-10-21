@@ -19,6 +19,15 @@ a:focus, a:hover{
     border: 3px blue;
     border-style: dotted solid;
 }
+article{
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
 header h1{
     font-size: 175%;
     color: maroon;
