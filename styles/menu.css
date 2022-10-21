@@ -62,7 +62,7 @@ article p::first-letter{
     font-style: italic;
 }
 aside{
-    position: fixed;
+    position: relative;
     width: 20%;
     float: right;
     background-color: lightblue;
@@ -70,5 +70,6 @@ aside{
     border-color: blue;
 }
 footer{
-    text-align: center;
+    border-top: 2em;
+    border-color: blue;
 }
