@@ -71,7 +71,7 @@ aside{
     border-color: blue;
 }
 footer{
-    border-top: 2em;
-    border-color: blue;
-    bottom: 1em;
+    clear: both;
+    border-top: 2em solid blue;
+    
 }
