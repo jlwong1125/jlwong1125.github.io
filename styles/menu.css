@@ -46,3 +46,10 @@ article p::first-letter{
     font-weight: bold;
     font-style: italic;
 }
+aside{
+    width: 20%;
+    float: right;
+    background-color: lightblue;
+    padding: 15px 0;
+    border-color: blue;
+}
