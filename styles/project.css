@@ -78,29 +78,6 @@ aside{
     padding: 15px 0;
 }
 
-header h3 {
-    margin-top: 3em;
-    Margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 1.5em;
-    font-size: 105%;
-    border: 5px double blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
-
-div {
-    margin-top: 1.5em;
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 0em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
-}
-
 #list {
     line-height: 1.5em;
 }
