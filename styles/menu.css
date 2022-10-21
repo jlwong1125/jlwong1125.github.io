@@ -26,6 +26,9 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
+article{
+    width: 75%;
+}
 article h1{
     float: left;
     padding: 1em;
@@ -41,12 +44,18 @@ aside ul{
     list-style-type: square;
 }
 
+body{
+    width: 95%;
+    margin: 15px auto;
+}
+
 article p::first-letter{
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
 }
 aside{
+    position: fixed;
     width: 20%;
     float: right;
     background-color: lightblue;
@@ -55,4 +64,13 @@ aside{
 }
 footer{
     text-align: center;
+}
+article h2{
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
