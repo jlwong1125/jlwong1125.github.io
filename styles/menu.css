@@ -29,6 +29,9 @@
 article h1{
     float: left;
 }
+article img{
+    float: left;
+}
 aside ol{
     list-style-type: upper-roman;
 }
