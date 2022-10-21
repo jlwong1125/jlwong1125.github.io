@@ -1,9 +1,7 @@
 #nav_menu ul {
     list-style-type: none;
     padding: 1em 1em;
-    text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black; }
+    text-align: center;}
 #nav_menu ul li {
     display: inline;
     padding: 1.5 1.5em; }
