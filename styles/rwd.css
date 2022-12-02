@@ -87,3 +87,7 @@ html, body {
     .top-nav {
         text-decoration: none, white;
     }
+
+    .menu a:hover, a.current{
+        text-decoration: underline;
+    }
