@@ -36,6 +36,7 @@ html, body {
     }
 
     table.third {
+        padding: 0.7em;
         border-top: 2px solid orangered;
         border-bottom: 2px solid orangered;
     }
@@ -45,6 +46,7 @@ html, body {
     }
 
     table.third thead {
+        padding: 0.7em;
         background-color: aquamarine;
         border-bottom: 2px solid orangered;
     }
