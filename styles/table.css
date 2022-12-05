@@ -35,6 +35,19 @@ html, body {
         border-bottom: 2px solid purple;
     }
 
+    table.third {
+        border-top: 1em orangered;
+        border-bottom: 1em orangered;
+    }
+
+    table.third caption {
+        background-color: aquamarine;
+    }
+
+    table.third thead {
+        background-color: aquamarine;
+    }
+
     @media only screen and (max-width: 425px) {
         th, td {
             display: block;
