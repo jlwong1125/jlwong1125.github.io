@@ -46,6 +46,7 @@ html, body {
 
     table.third thead {
         background-color: aquamarine;
+        border-bottom: 1em orangered;
     }
 
     @media only screen and (max-width: 425px) {
