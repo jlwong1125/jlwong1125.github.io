@@ -41,6 +41,8 @@ html, body {
     }
 
     table.third caption {
+        padding: 0.7em;
+        border: 2px solid orangered;  
         background-color: aquamarine;
     }
 
