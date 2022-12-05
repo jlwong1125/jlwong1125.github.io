@@ -46,9 +46,9 @@ html, body {
         background-color: aquamarine;
     }
 
-    table.third thead {        
+    table.third thead, table.third th {
         background-color: aquamarine;
-        border-bottom: 2px solid orangered;
+        border: 2px solid orangered;
     }
 
     @media only screen and (max-width: 425px) {
