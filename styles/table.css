@@ -36,8 +36,8 @@ html, body {
     }
 
     table.third {
-        border-top: 1em orangered;
-        border-bottom: 1em orangered;
+        border-top: 2px solid orangered;
+        border-bottom: 2px solid orangered;
     }
 
     table.third caption {
@@ -46,7 +46,7 @@ html, body {
 
     table.third thead {
         background-color: aquamarine;
-        border-bottom: 1em orangered;
+        border-bottom: 2px solid orangered;
     }
 
     @media only screen and (max-width: 425px) {
