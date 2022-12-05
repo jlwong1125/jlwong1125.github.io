@@ -46,8 +46,7 @@ html, body {
         background-color: aquamarine;
     }
 
-    table.third thead {
-        padding: 0.7em;
+    table.third thead {        
         background-color: aquamarine;
         border-bottom: 2px solid orangered;
     }
