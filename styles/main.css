@@ -1,11 +1,11 @@
 html{
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to bottom, rgb(0, 255, 255) 0%, #f0a535 100%);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 1000px;
-    background-color: white;
+    background-color: rgb(0, 255, 255);
     margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
@@ -19,12 +19,12 @@ a:focus, a:hover{
 }
 header h1{
     font-size: 175%;
-    color: maroon;
+    color: red;
     text-indent: 30px;
 }
 header h2{
     font-size: 130%;
-    color: #800000;
+    color: red;
     text-indent: 30px;
 }
 header img {
