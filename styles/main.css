@@ -6,7 +6,7 @@ body {
     font-size: 100%;
     width: 1000px;
     background-color: rgb(144, 207, 223);
-    margin: 0 auto;
+    margin: 0 center;
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
@@ -42,7 +42,7 @@ main {
     margin-bottom: 1.5em;
     border: 5px dashed blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px rgb(38, 0, 255);
+    box-shadow: 3px 3px 4px 4px rgb(162, 0, 255);
     padding: 0.5em;
     clear: left;
 }
@@ -55,7 +55,7 @@ header h3 {
     font-size: 105%;
     border: 5px double blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px rgb(162, 0, 255);
     padding: 1em;
 }
 
@@ -66,7 +66,7 @@ div {
     margin-bottom: 0em;
     border: 5px dotted blue;
     border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
+    box-shadow: 3px 3px 4px 4px rgb(162, 0, 255);
     padding: 1em;
 }
 
